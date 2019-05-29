@@ -49,7 +49,7 @@ brew cask install filezilla
 
 read -p "Download shift? y or n [yn]" answer
 if [[ $answer = y ]] ; then 
-  wget -P ~/Downloads/ https://www.dropbox.com/s/s3n16wjbsqnehv6/shift-mac.dmg
+  wget -P ~/Downloads/ https://github.com/Lod3/settingup/raw/master/shift-mac.dmg
 fi
 
 read -p "Trying to mount shift.dmg and install" 
