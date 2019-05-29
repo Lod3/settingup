@@ -35,7 +35,7 @@ if [[ $answer = y ]] ; then
   curl https://rclone.org/install.sh | sudo bash
 fi
 
-read -P "Installing gui Applications, chrome, vlc, libreoffice, visual-studio-code, filezilla, shift"
+read -p "Installing gui Applications, chrome, vlc, libreoffice, visual-studio-code, filezilla, shift"
 
 brew cask install google-chrome
 
