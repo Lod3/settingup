@@ -1,4 +1,8 @@
 #!/bin/bash
+<!--
+Script to automate installing preferred applications on new Mac machines
+Mac OsX pref settings by https://gist.github.com/jbelke
+-->
 
 xcode-select --install
 
@@ -91,3 +95,4 @@ defaults write com.apple.finder ShowPathbar -bool true
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 echo "Show extensions in Finder"
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
