@@ -1,6 +1,6 @@
 #!/bin/bash
 <!--
-Script to automate installing preferred applications on new Mac machines
+Script to automate installing preferred applications on new Mac machines.
 Mac OsX pref settings by https://gist.github.com/jbelke
 -->
 
